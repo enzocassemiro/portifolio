@@ -1,0 +1,59 @@
+.grid-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    column-gap: 20px;
+    
+    background-color: #282C34;
+}
+
+.grid-hero__left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 100px;
+    padding-left: 25px;
+    
+    background-color: #282C34;
+}
+
+.grid-hero-left__name {
+    padding-left: 10px; 
+    font-size: 2.8rem;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
+    
+    color: white;
+}
+
+.grid-hero-left__job {
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    
+    color: aqua;
+}
+
+.grid-hero-left__about {
+    padding: 15px 10px;
+    
+    color: white;
+}
+
+.grid-hero-left__button {
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+    width: fit-content;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid aqua;
+}
+
+.grid-hero__right{
+    
+    background-color: orangered;
+}
