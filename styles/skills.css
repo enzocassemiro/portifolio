@@ -1,0 +1,65 @@
+.skills {
+    background-color: #282C34;
+    padding-top: 80px;
+}
+
+.skills-tile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skills-title__text {
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skills-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center ;
+    align-items: center;
+}
+
+.skills-flex > div {
+    flex: 1 1 90px;
+    margin: 30px;
+    
+}
+
+progress {
+    border-radius: 7px; 
+    width: 80%;
+    height: 8px;
+    
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  progress::-webkit-progress-bar {
+    background-color: #282C34;
+    border-radius: 7px;
+  }
+
+  progress::-webkit-progress-value {
+    background-color: #47CF73;
+    border-radius: 7px;
+    /*box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );*/
+  }
+
+  progress::-moz-progress-bar {
+    /* style rules */
+  }
+
+.skills-flex img {
+    max-width: 110px;
+    display: block;
+}
