@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     column-gap: 20px;
-    padding-top: 40px;
+    margin-top: 40px;
 
     background-color: #282C34;
 }
@@ -17,6 +17,7 @@
     display: flex;
     width: 200px;
     padding: 10px;
+
     border-radius: 50%;
     border: 5px solid #47CF73;
     background-color: #38404e9d;
@@ -76,6 +77,7 @@
 .grid-about-right__flex-text-about {
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 .grid-about-right__icon-about {
@@ -84,18 +86,22 @@
     filter: invert(63%) sepia(70%) saturate(380%) hue-rotate(87deg) brightness(94%) contrast(92%);
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 570px) {
     .grid-about {
         grid-template-columns: none;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        margin-top: 150px;
     }
     
     .grid-about__left {
-        align-content: center;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
     }
 
     .grid-about-left__social {
@@ -124,4 +130,34 @@
         padding-top: 40px;
         padding-bottom: 15px;
     }
+
+    .grid-about__right p {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .grid-about__right h3 {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .grid-hero__right{
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .grid-about-left__img-square {
+        display: none;
+    }
+
+    .grid-about-left__img-tongue {
+        display: none;
+    }
+
+    .grid-about-left__name{
+        margin-top: 1em;
+    }
+    
 }

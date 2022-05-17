@@ -1,6 +1,6 @@
 .skills {
     background-color: #282C34;
-    padding-top: 80px;
+    margin-top: 200px;
 }
 
 .skills-tile {
@@ -12,6 +12,14 @@
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-family: 'Inconsolata', monospace;
     font-family: 'Raleway', sans-serif;
+}
+
+.skills-title__img-skills {
+  padding-right: 15px;
+  width: 40px;
+  height: 40px;
+
+  filter: invert(63%) sepia(70%) saturate(380%) hue-rotate(87deg) brightness(94%) contrast(92%);
 }
 
 .skills-title__text {
@@ -34,7 +42,6 @@
 .skills-flex > div {
     flex: 1 1 90px;
     margin: 30px;
-    
 }
 
 progress {
@@ -44,15 +51,16 @@ progress {
     
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   }
+
   progress::-webkit-progress-bar {
     background-color: #282C34;
     border-radius: 7px;
   }
 
   progress::-webkit-progress-value {
-    background-color: #47CF73;
     border-radius: 7px;
-    /*box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );*/
+
+    background-color: #47CF73;
   }
 
   progress::-moz-progress-bar {
