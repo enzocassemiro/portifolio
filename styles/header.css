@@ -15,7 +15,6 @@
     font-family: 'Inconsolata', monospace;
 }
 
-
 .header-principal__logo p {
     padding: 0 10px;
     
@@ -24,7 +23,6 @@
     
     color: #47CF73;
 }
-
 
 .header-principal__menu {
     display: flex;
@@ -40,4 +38,30 @@
     
     border-bottom: 2px solid #47CF73;
     border-bottom-width: thin;
+}
+
+@media screen and (max-width: 846px) {
+    .header-principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-principal__menu {
+        display: flex;
+        padding-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 625px) {
+    .header-principal__menu {
+        display: none;
+    }
+
+    .header-principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

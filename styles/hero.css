@@ -71,3 +71,27 @@
 .grid-hero-right__emoji-notebook {
     width: 350px;
 }
+
+@media screen and (max-width: 675px){
+    .grid-hero-right__emoji-notebook {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    
+    .grid-hero-right__emoji-notebook {
+        display: none;
+    }
+    .grid-hero {
+        grid-template-columns: none;
+        padding-top: 30px;
+    }
+
+    .grid-hero__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

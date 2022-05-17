@@ -83,3 +83,45 @@
     padding-right: 15px;
     filter: invert(63%) sepia(70%) saturate(380%) hue-rotate(87deg) brightness(94%) contrast(92%);
 }
+
+@media screen and (max-width: 520px) {
+    .grid-about {
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .grid-about__left {
+        align-content: center;
+        justify-content: center;
+    }
+
+    .grid-about-left__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-about-left__name {
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid-about-left__img-square{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-about-right__flex-text-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+}
