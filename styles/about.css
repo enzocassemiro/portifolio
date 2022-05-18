@@ -93,7 +93,7 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        margin-top: 150px;
+        margin-top: 70px;
     }
     
     .grid-about__left {
@@ -157,7 +157,7 @@
     }
 
     .grid-about-left__name{
-        margin-top: 1em;
+        margin-top: 4em;
     }
     
 }
