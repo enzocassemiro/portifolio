@@ -24,6 +24,10 @@
     color: #47CF73;
 }
 
+.header-principal__name {
+    color: white !important;
+}
+
 .header-principal__menu {
     display: flex;
 }

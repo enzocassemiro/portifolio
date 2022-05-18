@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    padding: 20px;
+    border-bottom: 3px solid #47CF73;
+    background-color: #1f2227
+}
+
+.footer p {
+    background-color: #1f2227
+}

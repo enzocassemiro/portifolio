@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +29,7 @@
         <header class="header-principal">
             <a href="/" class="header-principal__logo">
                 <p> < </p> 
-                @enzocassemiro
+                <p class="header-principal__name">@enzocassemiro</p>
                 <p> /> </p> 
             </a>
             <nav>
@@ -35,7 +37,7 @@
                     <li><a href="#about-page">Sobre</a></li>
                     <li><a href="#skills-page">Skills</a></li>
                     <li><a href="#project-page">Projetos</a></li>
-                    <li><a href="/">Contato</a></li>
+                    <li><a href="#contact-page">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -102,7 +104,7 @@
         <section class="skills" id="skills-page">
             <div class="skills-tile">
                 <img class="skills-title__img-skills" src="/images/skills/skills.png" alt="">
-                <h2 class="skills-title__text">Skills</h2>
+                <h3 class="skills-title__text">Skills</h3>
             </div>
             <div class="skills-flex">
                 <div>
@@ -149,15 +151,76 @@
         </section>
         
         <section class="project" id="project-page">
-            <div>
-                <h3 class="project__title">Projetos</h3>
+            <div class="project-title__flex">
+                <img class="project-title__img" src="/images/project/idea.png" alt="">
+                <h3 class="project-title__text">Projetos</h3>
             </div>
 
-            <div class="flex-">
-
+            <div class="project__grid">
+                <div>
+                    <h4>Dashify</h4>
+                    <p>Software extracts the data from excel with Pandas, treats it and sends it to the database (Firebase).</p>
+                    <a class="project-grid__button" href="https://github.com/enzocassemiro/dashify-folder-watcher-upx" target="_blank">Repositório </a>
+                </div>
+                <div>
+                    <h4>Doc Validator</h4>
+                    <p>Project to practice Python with Flask, using basic algorithms that can be useful for CPF verifications, and future CNPJ verifications.</p>
+                    <a class="project-grid__button" href="https://github.com/enzocassemiro/doc-validator" target="_blank">Repositório </a>
+                </div>
+                <div>
+                    <h4>Renew Study</h4>
+                    <p>Website que disponibiliza um material didático auxiliar para o conteúdo de energias renovaveis.</p>
+                    <a class="project-grid__button" href="https://github.com/leonardodimarchi/renewstudy" target="_blank">Repositório </a>
+                </div>
             </div>
 
         </section>
+
+        <section class="contact" id="contact-page">
+            
+            <div class="contact-title__flex">
+                <img class="contact-title__img" src="/images/contact/contact.png" alt="">
+                <h3 class="contact-title__text">Contato</h3>
+            </div>
+
+            <div class="contact__description">
+                <p>Aqui estão minhas principais formas de contato</p>
+            </div>
+
+            <div class="contact__grid">
+                <div>
+                    <a href="">
+                        <img class="contact__grid__email" src="/images/contact/smartphone.png" alt="">
+                        <p>(15) X-XXXX-XXXX</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto: enzocass@live.com">
+                        <img class="contact__grid__email" src="/images/about/email.png" alt="">
+                        <p>enzocass@live.com</p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://www.linkedin.com/in/enzocassemiro/" target="_blank">
+                        <img class="contact__grid__linkedin" src="/images/about/linkedin.png" alt="">
+                        <p>https://www.linkedin.com/in/enzocassemiro/</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/enzocassemiro" target="_blank">
+                        <img class="contact__grid__github" src="/images/about/github.png" alt="">
+                        <p>https://github.com/enzocassemiro</p>
+                    </a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p>© 2022 Enzo Cassemiro - Design inspired in Lavinia Melo</p>
+        </footer>
 
     </main>
 
