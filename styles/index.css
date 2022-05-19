@@ -7,6 +7,11 @@ body, ul, li, p {
     font-size: 1.2rem;
     font-family: Arial;
     background-color: #282C34;
+    scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
